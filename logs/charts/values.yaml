@@ -322,12 +322,7 @@ openTelemetry:
         - OTelLogsSLOBurnRateCritical
         - OTelLogsSLOBurnRateWarning
         - OTelLogsExportFailureRatioHigh
-        - OTelExporterQueueFilling
         - OTelExporterQueueFull
-        - OTelLogsVolumeSpike
-        - OTelLogsVolumeDropFast
-        - JournaldReceiverRefusedLogs
-        - K8sEventsReceiverRefusedLogs
 
       # -- Labels for PrometheusRules.
       labels: {}
